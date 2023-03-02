@@ -42,6 +42,10 @@ export default function Form(){
                     <input type="num" className="input farad" onChange={handleFaradChange} value={FaradValue}/>
                 </div>
 
+                <div className="input-field boullon">
+                    <input type="text" className="input farad" />
+                </div>
+
             </div>
         </div>  
     )
