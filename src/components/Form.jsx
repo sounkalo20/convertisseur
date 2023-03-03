@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Bouillon from "./Bouillons";
 
 export default function Form(){
     const [degreValue,setDegreValue]=useState(0);
@@ -42,6 +43,7 @@ export default function Form(){
                     <input type="num" className="input farad" onChange={handleFaradChange} value={FaradValue}/>
                 </div>
 
+                <Bouillon temperature={degreValue} />
             </div>
         </div>  
     )
