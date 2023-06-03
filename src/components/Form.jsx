@@ -45,8 +45,10 @@ export default function Form({id1,id2}){
                 <div className="input-field">
                     <input type="num" className="input farad" onChange={handleFaradChange} value={FaradValue}/>
                 </div>
+                <div className="input-field boullon">
+                    <input type="text" className="input farad" />
+                </div>
 
-                <Bouillon temperature={degreValue} />
             </div>
         </div>  
     )
