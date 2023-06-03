@@ -5,8 +5,8 @@ import Dialog from "./components/Dialog";
 function App() {
   return (
     <div className="main">
-      <Dialog />
-      <Form />
+      <Dialog id1="selectZone1" id2="selectZone2"/>
+      <Form  id1="selectZone1" id2="selectZone2"/>
     </div>
   );
 }

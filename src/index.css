@@ -160,4 +160,16 @@ label a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background: blue;
+    color: white;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.Bouillon{
+    /* margin-left: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

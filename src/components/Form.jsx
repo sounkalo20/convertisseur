@@ -1,9 +1,12 @@
 import { useState } from "react"
 import Bouillon from "./Bouillons";
 
-export default function Form(){
+export default function Form({id1,id2}){
     const [degreValue,setDegreValue]=useState(0);
     const [FaradValue,setFaradValue]=useState(0);
+
+    let select1=document.querySelector(`#${id1}`).value;
+    let select2=document.querySelector(`#${id2}`).value;
 
    function changeDegre(e){
     setDegreValue(e.target.value)
